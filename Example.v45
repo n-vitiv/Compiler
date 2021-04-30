@@ -1,0 +1,27 @@
+mainprogram
+start
+data _Iabcd, _Gesss int16;
+end
+start
+_Gesss >> 777;
+print(_Gesss);
+scan(_Iabcd);
+!!! Some
+text !!!
+if(_Iabcd < 15)
+	start
+	print((_Iabcd + 10 / 2) + 7 * (4 - 2));
+	end
+else
+	start
+	print((_Iabcd - 20) + 30 * 10 / 15);	 
+	print((_Gesss - 100) + 322 * 30 / 10);
+	end
+print((_Iabcd - 100) + 322 * 30 / 100);
+print(10 % 7);
+print(1 && 1);
+print(1 && 0);
+print(1 || 0);
+print(0 || 0);
+print( !! 0);
+end
